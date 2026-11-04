@@ -1,51 +1,46 @@
-# Professional Projects Repository
+# Professional Projects
 
-A clean, professional workspace for organizing project work across code, data, and results.
+A portfolio workspace for documenting project code, data workflows, results, and decisions. Each project has its own area so that its documentation and outputs stay organized and reproducible.
 
-## Repository Purpose
-This repository is designed to support structured project development, documentation, and reporting in a clear and reusable way.
+## Projects
 
-## Folder Structure
+### 1. Machine Learning Identification of Gut Microbial Biomarkers for Obesity Prediction
+Analyze gut microbiome data to classify weight status and identify bacterial features associated with obesity.
+
+[Open project overview](projects/gut-microbiome-obesity/README.md)
+
+### 2. Aviation Safety Incident Mining with NLP (NASA ASRS)
+Apply natural language processing and unsupervised clustering to aviation incident narratives to discover and evaluate safety themes.
+
+[Open project overview](projects/aviation-safety-nlp/README.md)
+
+## Repository Structure
+
 ```text
 professional-projects/
 ├── README.md
 ├── .gitignore
-├── docs/
-│   └── project-overview.md
-├── code/
-│   ├── README.md
-│   └── sample_project.py
-├── data/
-│   ├── README.md
-│   ├── raw/
-│   └── processed/
-├── results/
-│   ├── README.md
-│   ├── figures/
-│   └── reports/
-└── notebooks/
-    └── README.md
+└── projects/
+    ├── gut-microbiome-obesity/
+    │   ├── README.md
+    │   ├── code/
+    │   ├── data/
+    │   ├── docs/
+    │   └─��� results/
+    └── aviation-safety-nlp/
+        ├── README.md
+        ├── code/
+        ├── data/
+        ├── docs/
+        └── results/
 ```
 
-## Recommended Use
-- `code/`: source code, scripts, notebooks, and implementation logic
-- `data/`: raw and processed datasets, metadata, and data dictionaries
-- `results/`: generated outputs, reports, charts, visualizations, and summaries
-- `docs/`: project documentation and research notes
-- `notebooks/`: exploratory analysis, experiments, and validation work
+## Working With Data
 
-## Getting Started
-1. Add your project code in `code/`.
-2. Store raw and cleaned data in `data/`.
-3. Save visualizations or result files in `results/`.
-4. Document project goals, methods, and outcomes in `docs/`.
+- Keep source data out of Git unless its license, privacy requirements, and repository settings allow redistribution.
+- Prefer documented download instructions or data access procedures over committing large or sensitive datasets.
+- Keep credentials, private records, and personally identifiable information out of this repository.
+- Record preprocessing and analysis steps so results can be reproduced.
 
-## Example Workflow
-- Collect or import data
-- Build scripts in `code/`
-- Process and clean data in `data/`
-- Generate results in `results/`
-- Summarize findings in `docs/project-overview.md`
-
-## Notes
-This structure is intentionally simple, scalable, and suitable for professional portfolio or project presentation work.
+## Project Documentation
+Each project README describes its objective, proposed workflow, and expected outputs. Add methods, assumptions, citations, and limitations in that project's `docs/` folder as the work develops.
