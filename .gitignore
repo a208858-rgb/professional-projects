@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Data files and outputs
+*.csv
+*.tsv
+*.json
+*.parquet
+*.sqlite
+*.db
+*.pickle
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.*
+
+# Output folders (customize if needed)
+results/
+!results/README.md
