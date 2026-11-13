@@ -1,0 +1,5 @@
+analysis,statistic,df,p_value,effect_size,note
+Chi-square: Gender x Weight_Group,2.129356743988775,1.0,0.14450138531844936,0.06279532808743692,Cramer's V; min expected count = 69.7
+Chi-square: Ethnicity x Weight_Group,36.156746375871066,3.0,6.93818180965463e-08,0.25876038671538304,Cramer's V; min expected count = 20.0
+Kruskal-Wallis: Age ~ Weight_Group,0.5901511774625767,1.0,0.4423606652865677,,
+"Dunn (BH-adjusted): Age, Normal vs Obese_Overweight",,,0.44236066528646034,,p adjusted (Benjamini-Hochberg)
