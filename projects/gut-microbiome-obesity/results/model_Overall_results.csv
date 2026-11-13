@@ -1,0 +1,7 @@
+,Accuracy,Precision,Recall,F1-Score,AUC-ROC
+Random Forest,0.6015,0.551,0.4655,0.5047,0.6725
+SVM,0.5865,0.5238,0.569,0.5455,0.6272
+Logistic Regression,0.609,0.5469,0.6034,0.5738,0.64
+XGBoost,0.5714,0.5098,0.4483,0.4771,0.6297
+Naive Bayes,0.5789,0.5147,0.6034,0.5556,0.6359
+Stacked Ensemble,0.6165,0.6,0.3621,0.4516,0.6283
