@@ -1,0 +1,14 @@
+pandas
+numpy
+matplotlib
+scikit-learn
+sentence-transformers
+umap-learn
+hdbscan
+joblib
+pymupdf
+# optional (only for the early experiment script / extra coherence scores)
+transformers
+torch
+bertopic
+gensim

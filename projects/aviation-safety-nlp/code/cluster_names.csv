@@ -1,0 +1,39 @@
+cluster,theme_name,status
+0,Drones / UAS airspace authorization,draft
+1,GPS jamming / spoofing / navigation interference,draft
+2,Icing and anti-ice / de-ice,draft
+3,Helicopter traffic and pattern separation,draft
+4,Landing and runway events (student pilots; damage),draft
+5,Fuel leaks / tank imbalance,draft
+6,Landing gear extension and indication,draft
+7,Cabin door and slide arming / disarming,draft
+8,Windshield / window cracks,draft
+9,Airport and tower lighting,draft
+10,Pressurization / cabin altitude / bleed air,draft
+11,Door warnings and cabin pressure noise,draft
+12,Parking brake / chocks / shutdown,draft
+13,Departure clearance / heading / SID errors,draft
+14,Ground vehicles / ramp and gate,draft
+15,Flaps and approach configuration,draft
+16,ATC frequency / radio / radar sector issues,draft
+17,Oil pressure / quantity / engine shutdown,draft
+18,Pushback / tug (wing clearance),draft
+19,Pushback / tug (brakes set),draft
+20,Rejected takeoff,draft
+21,Smoke / smell / fumes,draft
+22,Maintenance / MEL / inspection management,draft
+23,Electrical failure / alternator / transponder,draft
+24,ATC staffing and sector workload,draft
+25,Pitch trim / stabilizer / autopilot trim,draft
+26,Flight controls / aileron / autopilot mode (mixed),draft
+27,Approach altitude / terrain alerts (broad),draft
+28,Hydraulic system failures,draft
+29,Engine vibration / checklist / shutdown,draft
+30,Engine power loss / RPM / mixture,draft
+31,Wake turbulence encounters,draft
+32,Severe weather turbulence,draft
+33,TCAS resolution advisories / traffic conflicts,draft
+34,Minimum altitudes (MIA/MVA) / instrument rules,draft
+35,Traffic pattern / radio calls (student),draft
+36,Taxiway / runway hold-short,draft
+37,Taxi instructions / ground clearance confusion,draft
